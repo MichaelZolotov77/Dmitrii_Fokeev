@@ -79,6 +79,7 @@ nav {
 
 .section-description__icon-box {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .section-description__icon-box img {
@@ -89,25 +90,19 @@ nav {
     margin-right: 0px;
 }
 
+.section-description__title {
+    font-size: 96px;
+    margin: 0px;
+    text-align: center;
+}
 
+.red {
+    color: #F15B40;
+}
 
-/* img {
-
-} - селектор тега
-
-.section-about {
-
-} - селектор класса
-
-* {
-
-} - обращение ко всему документу
-
-#logo {
-
-} - уникальный идентификатор
-
-.section-description__icon-box img {
-
-} - обращение к дочерним элементам
-*/
+.section-description__text {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
