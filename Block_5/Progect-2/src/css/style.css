@@ -439,11 +439,12 @@ table {
 
 /* line 10, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .container {
+  position: relative;
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* line 14, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 15, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .main-section {
   position: relative;
   min-height: 800px;
@@ -452,7 +453,7 @@ table {
   overflow: hidden;
 }
 
-/* line 20, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 21, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .main-section__nav-container {
   display: flex;
   flex-direction: row;
@@ -461,62 +462,62 @@ table {
   align-items: center;
 }
 
-/* line 26, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 27, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .main-section__logo {
   width: 134px;
   height: 69px;
 }
 
-/* line 29, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 30, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .main-section__content-container {
   position: relative;
   display: flex;
   flex-direction: row;
 }
 
-/* line 33, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 34, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .main-section__first-elipse {
   position: absolute;
   top: 129px;
   right: 80px;
 }
 
-/* line 37, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 38, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .main-section__second-elipse {
   position: absolute;
   right: -120px;
   top: 650px;
 }
 
-/* line 43, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 44, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .nav-menu__list {
   display: flex;
   flex-direction: row;
 }
 
-/* line 46, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 47, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
 }
 
-/* line 49, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 50, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .nav-menu__list-item:last-child {
   margin-right: 0px;
 }
 
-/* line 52, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 53, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .left-wrapper {
   position: relative;
 }
 
-/* line 54, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 55, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .left-wrapper img {
   position: relative;
   z-index: 5;
 }
 
-/* line 57, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 58, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .left-wrapper__rectangle-blue {
   position: absolute;
   top: 150px;
@@ -530,7 +531,7 @@ table {
   z-index: 2;
 }
 
-/* line 68, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 69, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .left-wrapper__rectangle-orange {
   position: absolute;
   width: 618.428px;
@@ -544,7 +545,7 @@ table {
   z-index: 3;
 }
 
-/* line 79, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 80, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .left-wrapper__rectangle-grey {
   position: absolute;
   width: 608.968px;
@@ -558,7 +559,7 @@ table {
   z-index: 1;
 }
 
-/* line 91, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 92, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .right-wrapper {
   width: 372px;
   position: absolute;
@@ -567,29 +568,29 @@ table {
   z-index: 1;
 }
 
-/* line 97, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 98, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .right-wrapper__icons-box {
   margin-bottom: 1px;
   padding-left: 10px;
 }
 
-/* line 100, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 101, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .right-wrapper__title {
   margin-bottom: 5px;
 }
 
-/* line 102, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 103, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .right-wrapper__text {
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-/* line 106, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 107, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .icons {
   display: inline-flex;
 }
 
-/* line 108, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 109, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .icons__item {
   display: flex;
   justify-content: center;
@@ -601,23 +602,23 @@ table {
   margin-right: 17px;
 }
 
-/* line 117, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 118, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .icons__item:last-child {
   margin-right: 0px;
 }
 
-/* line 119, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 120, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .icons__item i {
   font-size: 21px;
 }
 
-/* line 122, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 123, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .title {
   font-size: 72px;
   position: relative;
 }
 
-/* line 125, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 126, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .title__hr {
   position: absolute;
   width: 65px;
@@ -628,11 +629,16 @@ table {
 }
 
 /* line 133, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+.title__hr_top {
+  bottom: 75px;
+}
+
+/* line 137, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .buttons {
   display: inline-flex;
 }
 
-/* line 135, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 139, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .buttons__main-btn {
   margin-right: 32px;
   width: 200px;
@@ -645,23 +651,23 @@ table {
   color: white;
 }
 
-/* line 145, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 149, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .buttons__icon-btn {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 148, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 152, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .buttons__icon-btn img {
   margin-right: 12px;
 }
 
-/* line 150, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 154, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .buttons__text {
   font-size: 16px;
 }
 
-/* line 153, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 157, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .elipse {
   width: 194px;
   height: 194px;
@@ -672,14 +678,14 @@ table {
   align-items: center;
 }
 
-/* line 161, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 165, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .elipse_big {
   width: 282px;
   height: 282px;
   border-radius: 150px;
 }
 
-/* line 165, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 169, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .elipse__subtract {
   width: 130px;
   height: 130px;
@@ -687,61 +693,61 @@ table {
   border-radius: 100px;
 }
 
-/* line 170, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 174, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .elipse__subtract_big {
   width: 188px;
   height: 188px;
 }
 
-/* line 173, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 177, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .elipse__subtract_white {
   background: white;
 }
 
-/* line 176, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 180, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .second-section {
   min-height: 700px;
 }
 
-/* line 178, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 182, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .second-section__container {
   padding-top: 32px;
   position: relative;
 }
 
-/* line 181, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 185, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .second-section__title {
   margin-bottom: 40px;
 }
 
-/* line 183, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 187, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .second-section__cards-box {
   display: inline-flex;
   margin-bottom: 25px;
 }
 
-/* line 186, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 190, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .second-section__cards-item {
   margin-right: 30px;
 }
 
-/* line 188, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 192, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .second-section__cards-item:last-child {
   margin-right: 0;
 }
 
-/* line 190, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 194, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .second-section__icons-box {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* line 194, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 198, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .second-section__icons-item:last-child {
   margin-right: 0;
 }
 
-/* line 196, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 200, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .second-section__first-elipse {
   position: absolute;
   top: 80px;
@@ -749,7 +755,7 @@ table {
   z-index: -1;
 }
 
-/* line 201, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 205, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .second-section__second-elipse {
   position: absolute;
   top: 364px;
@@ -757,7 +763,7 @@ table {
   z-index: -1;
 }
 
-/* line 208, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 212, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .cards-item {
   position: relative;
   width: 360px;
@@ -768,12 +774,12 @@ table {
   align-items: flex-end;
 }
 
-/* line 216, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 220, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .cards-item__img {
   height: 335px;
 }
 
-/* line 218, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 222, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .cards-item__text {
   position: absolute;
   width: 280px;
@@ -784,36 +790,94 @@ table {
   right: -45px;
 }
 
-/* line 227, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 231, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .cards-item_orange {
   background: #F28B64;
 }
 
-/* line 230, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 234, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .cards-item_blue {
   background: #5290EA;
 }
 
-/* line 233, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 237, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .icons-item {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 236, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 240, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .icons-item__img {
   margin-right: 20px;
   width: 80px;
 }
 
-/* line 239, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 243, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .icons-item__text {
   font-size: 18px;
 }
 
-/* line 241, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+/* line 245, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
 .icons-item__text span {
   font-size: 48px;
+}
+
+/* line 248, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background: #F0F0F0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* line 254, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+
+/* line 261, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 263, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+
+/* line 265, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+.third-section__text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* line 268, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: -1;
+}
+
+/* line 273, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  z-index: -1;
+}
+
+/* line 278, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_5/Progect-2/src/sass/style.sass */
+.third-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
 }
 
 /*# sourceMappingURL=style.css.map */
