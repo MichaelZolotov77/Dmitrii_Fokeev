@@ -468,12 +468,11 @@ $color-orange: #F28B64
             margin-bottom: 10px
         &__container
             min-height: 210px
-            
 
 @media (max-width: 767px)
     .container
         width: 540px
-    .nav-menu       
+    .nav-menu
         position: fixed
         top: 0
         right: -100%
@@ -491,11 +490,12 @@ $color-orange: #F28B64
             margin-right: 0
             font-size: 20px
     .hamburger
-        position: absolute
+        position: fixed
         top: 40px
         right: 30px
         width: 30px
         height: 14px
+        z-index: 21
         span
             height: 2px
             width: 100%
@@ -513,9 +513,50 @@ $color-orange: #F28B64
             &:nth-child(2)
                 display: none
             &:nth-child(3)
-                transform: translateY(3px) rotate(45deg)  
+                transform: translateY(3px) rotate(45deg)
     .nav-menu_active
         right: 0
+    .left-wrapper img
+        display: none
+    .right-wrapper__text
+        font-size: 18px
+    .right-wrapper
+        z-index: 5
+    .second-section__title
+        display: flex
+        margin-bottom: 25px
+        justify-content: center
+    .title__hr
+        display: none
+    .second-section__cards-box
+        display: flex
+        flex-direction: column
+        align-items: center
+    .cards-item
+        width: 400px
+        height: 400px
+        margin-bottom: 20px
+        margin-right: 0
+    .cards-item__img
+        height: 360px
+    .cards-item__text
+        font-size: 36px
+        top: 173px
+        right: -43px
+    .icons-item__img
+        width: 80px
+    .second-section__icons-box
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+    .icons-item__text span
+        font-size: 48px
+    .icons-item__text
+        font-size: 18px
+    .footer__img
+        display: none
+    .second-section
+        min-height: 1570px
 
 @media (max-width: 575px)
     .container
