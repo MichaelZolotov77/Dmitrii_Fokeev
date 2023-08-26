@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		".navbar-brand {\n    img {\n        width: 100px; } }\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AACI,aADS,CACT,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;CAAG"
+}
