@@ -3,4 +3,10 @@
   width: 100px;
 }
 
+/* line 5, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_7_Bootstrap/sass/style.sass */
+.carousel-item img {
+  height: 650px;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=style.css.map */

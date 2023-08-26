@@ -5,8 +5,8 @@
 		"../sass/style.sass"
 	],
 	"sourcesContent": [
-		".navbar-brand {\n    img {\n        width: 100px; } }\n"
+		".navbar-brand {\n    img {\n        width: 100px; } }\n.carousel-item {\n    img {\n        height: 650px;\n        object-fit: cover; } }\n\n"
 	],
 	"names": [],
-	"mappings": ";AAAA,AACI,aADS,CACT,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;CAAG"
+	"mappings": ";AAAA,AACI,aADS,CACT,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;CAAG;;;AACvB,AACI,cADU,CACV,GAAG,CAAC;EACA,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;CAAG"
 }
