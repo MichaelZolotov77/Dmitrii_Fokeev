@@ -1,20 +1,16 @@
-/* line 2, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_7_Bootstrap/sass/style.sass */
 .navbar-brand img {
   width: 100px;
 }
 
-/* line 4, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_7_Bootstrap/sass/style.sass */
 .carousel-item {
   position: relative;
 }
 
-/* line 6, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_7_Bootstrap/sass/style.sass */
 .carousel-item img {
   height: 650px;
   object-fit: cover;
 }
 
-/* line 9, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_7_Bootstrap/sass/style.sass */
 .content {
   position: absolute;
   max-width: 900px;
@@ -24,7 +20,6 @@
   color: white;
 }
 
-/* line 16, ../../../Desktop/Web_development/Dmitrii_Fokeev/Block_7_Bootstrap/sass/style.sass */
 .overlay {
   position: absolute;
   width: 100%;
@@ -33,4 +28,10 @@
   opacity: 0.4;
 }
 
-/*# sourceMappingURL=style.css.map */
+.carousel-control-prev img {
+  width: 100px;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
